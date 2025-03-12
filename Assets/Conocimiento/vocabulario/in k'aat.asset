@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e321af133e3dc7b49a89e1a87925a581, type: 3}
+  m_Name: in k'aat
+  m_EditorClassIdentifier: 
+  ID: 2
+  Parlabra: <link="2"><u>in k'aat</u></link>
+  PalabraRaw: in k'aat
+  "Traducci\xF3n": Yo Quiero
+  imagen: {fileID: 21300000, guid: 67f12934933d8fa4f8b4970a7aea8f62, type: 3}
