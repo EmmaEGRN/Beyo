@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: A k'aat
   m_EditorClassIdentifier: 
   ID: 10
-  Parlabra: <link="6"><u>a k'aat</u></link>
+  Parlabra: <link="10"><u>a k'aat</u></link>
   PalabraRaw: a k'aat
   "Traducci\xF3n": "T\xFA quieres"
   imagen: {fileID: 0}
