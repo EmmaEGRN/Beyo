@@ -2527,6 +2527,32 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 455960751}
   m_CullTransparentMesh: 1
+--- !u!1 &529800688 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8122021203205349836, guid: 03634e79fdf63154f948670c2087185f, type: 3}
+  m_PrefabInstance: {fileID: 1617029335}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &529800693 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 730893520112490318, guid: 03634e79fdf63154f948670c2087185f, type: 3}
+  m_PrefabInstance: {fileID: 1617029335}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &529800694
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 529800688}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6252624b3ec28e34aa6f025310d4fcb0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objeto: {fileID: 11400000, guid: 5e911a48348ccbd45b26217450ae6161, type: 2}
+  radius: 3
+  interactionTransform: {fileID: 529800693}
+  CartaDePalabra: {fileID: 552292691}
 --- !u!1 &552292691
 GameObject:
   m_ObjectHideFlags: 0
@@ -4367,6 +4393,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6021407974843729268, guid: 6af275ef0645b75448802a441e552b47, type: 3}
+      propertyPath: CartaDePalabra
+      value: 
+      objectReference: {fileID: 552292691}
     - target: {fileID: 6258363328665449128, guid: 6af275ef0645b75448802a441e552b47, type: 3}
       propertyPath: m_Name
       value: Gallina
@@ -4414,10 +4444,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 6258363328665449128, guid: 6af275ef0645b75448802a441e552b47, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1326349103}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6af275ef0645b75448802a441e552b47, type: 3}
 --- !u!1001 &1253773124
 PrefabInstance:
@@ -4604,32 +4631,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1326349097 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6258363328665449128, guid: 6af275ef0645b75448802a441e552b47, type: 3}
-  m_PrefabInstance: {fileID: 1231061549}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &1326349102 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 9096978394792914327, guid: 6af275ef0645b75448802a441e552b47, type: 3}
-  m_PrefabInstance: {fileID: 1231061549}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1326349103
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1326349097}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6252624b3ec28e34aa6f025310d4fcb0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  objeto: {fileID: 11400000, guid: 5e911a48348ccbd45b26217450ae6161, type: 2}
-  radius: 3
-  interactionTransform: {fileID: 1326349102}
-  CartaDePalabra: {fileID: 552292691}
 --- !u!1001 &1339980026
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5643,7 +5644,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 8122021203205349836, guid: 03634e79fdf63154f948670c2087185f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 529800694}
   m_SourcePrefab: {fileID: 100100000, guid: 03634e79fdf63154f948670c2087185f, type: 3}
 --- !u!1 &1638077939 stripped
 GameObject:

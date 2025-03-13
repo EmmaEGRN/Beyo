@@ -18,6 +18,10 @@ public class NewWordCardManager : MonoBehaviour
         traducción.text = vocab.Traducción;
     }
 
+        public void appear(){
+        //transform.LeanScale()
+    }
+
     public void sound()
     {
         FindAnyObjectByType<AudioManager>().Play(vocab.name);
