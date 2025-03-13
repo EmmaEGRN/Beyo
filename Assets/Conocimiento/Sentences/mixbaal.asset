@@ -12,5 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 83cf0c788b8db424090fa1c04bcb83fd, type: 3}
   m_Name: mixbaal
   m_EditorClassIdentifier: 
-  palabras: []
+  palabras:
+  - {fileID: 0}
   "traducci\xF3n": 

@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class playerController : MonoBehaviour
 {
@@ -38,7 +39,10 @@ public class playerController : MonoBehaviour
 
         if (Input.GetMouseButtonDown(0))
             {
-            
+                if (EventSystem.current.IsPointerOverGameObject())
+            {
+                return;
+            }
                 Ray ray = cam.ScreenPointToRay(Input.mousePosition);
                 RaycastHit hit;
 
