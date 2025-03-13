@@ -9,11 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e321af133e3dc7b49a89e1a87925a581, type: 3}
-  m_Name: a k'aat
+  m_Script: {fileID: 11500000, guid: df19fa4af86ba7d40814e897314fce48, type: 3}
+  m_Name: Kaax
   m_EditorClassIdentifier: 
-  ID: 10
-  Parlabra: <link="10"><u>a k'aat</u></link>
-  PalabraRaw: a k'aat
-  "Traducci\xF3n": "T\xFA quieres"
-  imagen: {fileID: 0}
+  name: kaax
+  icon: {fileID: 0}
+  disabledIcon: {fileID: 0}
