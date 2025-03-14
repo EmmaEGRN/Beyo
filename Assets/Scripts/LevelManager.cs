@@ -37,6 +37,11 @@ public class LevelManager : MonoBehaviour
 
     #endregion
 
+    public delegate void OnRightAnswer(Vocabulario newVocab);
+    public static event OnRightAnswer onRightAnswer;
+
+    
+    
     public void Start()
     {
         losePanel.SetActive(false);
@@ -78,6 +83,7 @@ public class LevelManager : MonoBehaviour
     {
         if (firstChoice == secondChoice)
         {
+            onRightAnswer?.Invoke(carta.vocab);
             FindAnyObjectByType<AudioManager>().Play("Achievement");
             //show correct
             carta.closeCard();
