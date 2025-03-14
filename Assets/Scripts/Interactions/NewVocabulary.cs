@@ -4,17 +4,25 @@ public class NewVocabulary : Interactable
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     
-    [SerializeField] private GameObject CartaDePalabra;
     //[SerializeField] private NewWordCardManager WordCardManager;
-    
+
+    public delegate void OnNewWordAcquired();
+    public static event OnNewWordAcquired onNewWordAcquired;
+
+    private void Awake()
+    {
+        onNewWordAcquired = null;
+    }
+
+    private void OnDestroy()
+    {
+        onNewWordAcquired = null;
+    }
     void Start()
     {
-        CartaDePalabra.SetActive(false);
-        //WordCardManager = CartaDePalabra.GetComponentInChildren<NewWordCardManager>();
 
     }
 
-    // Update is called once per frame
     void Update()
     {
         
@@ -22,9 +30,7 @@ public class NewVocabulary : Interactable
 
     public override void Interact()
     {
-        CartaDePalabra.SetActive(true);
-        //WordCardManager.sound();
-        CartaDePalabra.GetComponentInChildren<NewWordCardManager>().sound();
+        onNewWordAcquired?.Invoke();
     }
 
 }

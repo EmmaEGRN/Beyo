@@ -2552,7 +2552,6 @@ MonoBehaviour:
   objeto: {fileID: 11400000, guid: 5e911a48348ccbd45b26217450ae6161, type: 2}
   radius: 3
   interactionTransform: {fileID: 529800693}
-  CartaDePalabra: {fileID: 552292691}
 --- !u!1 &552292691
 GameObject:
   m_ObjectHideFlags: 0
@@ -2565,6 +2564,7 @@ GameObject:
   - component: {fileID: 552292694}
   - component: {fileID: 552292693}
   - component: {fileID: 552292695}
+  - component: {fileID: 552292696}
   m_Layer: 5
   m_Name: PanelNuevaPalabra
   m_TagString: Untagged
@@ -2659,6 +2659,22 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+--- !u!114 &552292696
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 552292691}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a0baa3f06a05b5499e431a1fd5a8903, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  imagen: {fileID: 1879436713}
+  palabra: {fileID: 996886216}
+  "traducci\xF3n": {fileID: 2027572878}
+  vocab: {fileID: 11400000, guid: d5e0808055ddb044eb24244689f1a658, type: 2}
 --- !u!1 &724387980
 GameObject:
   m_ObjectHideFlags: 0
@@ -4010,6 +4026,17 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 979429083}
   m_CullTransparentMesh: 1
+--- !u!114 &996886216 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4992052933501306692, guid: 7e32b0dab8ff9e74ca4bc8c1c715563f, type: 3}
+  m_PrefabInstance: {fileID: 1253773124}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &997896734
 GameObject:
   m_ObjectHideFlags: 0
@@ -4542,7 +4569,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: NuevasPalabras
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5104095863747135189, guid: 7e32b0dab8ff9e74ca4bc8c1c715563f, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -6876,6 +6904,17 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1878830714}
   m_CullTransparentMesh: 1
+--- !u!114 &1879436713 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3034385583381262027, guid: 7e32b0dab8ff9e74ca4bc8c1c715563f, type: 3}
+  m_PrefabInstance: {fileID: 1253773124}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1894439621
 GameObject:
   m_ObjectHideFlags: 0
@@ -7110,6 +7149,17 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1995304483}
   m_CullTransparentMesh: 1
+--- !u!114 &2027572878 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6869388186187507389, guid: 7e32b0dab8ff9e74ca4bc8c1c715563f, type: 3}
+  m_PrefabInstance: {fileID: 1253773124}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2067418676
 GameObject:
   m_ObjectHideFlags: 0

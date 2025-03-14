@@ -13,13 +13,29 @@ public class NewWordCardManager : MonoBehaviour
 
     void Start()
     {
+        gameObject.SetActive(false);
+
         imagen.sprite = vocab.imagen;
         palabra.text = vocab.PalabraRaw;
         traducción.text = vocab.Traducción;
+        NewVocabulary.onNewWordAcquired += openCard;
+        NewVocabulary.onNewWordAcquired += sound;
     }
 
-        public void appear(){
+    private void OnDestroy()
+    {
+        NewVocabulary.onNewWordAcquired -= openCard;
+        NewVocabulary.onNewWordAcquired -= sound;
+
+    }
+
+    public void appear(){
         //transform.LeanScale()
+        }
+
+    public void openCard()
+    {
+        gameObject.SetActive(true);
     }
 
     public void sound()
