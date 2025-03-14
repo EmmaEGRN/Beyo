@@ -3,10 +3,12 @@ using UnityEngine;
 public class NewVocabulary : Interactable
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    
+
     //[SerializeField] private NewWordCardManager WordCardManager;
 
-    public delegate void OnNewWordAcquired();
+    [SerializeField] Vocabulario nuevoVocabulario;
+
+    public delegate void OnNewWordAcquired(Vocabulario nuevoVocab);
     public static event OnNewWordAcquired onNewWordAcquired;
 
     private void Awake()
@@ -30,7 +32,7 @@ public class NewVocabulary : Interactable
 
     public override void Interact()
     {
-        onNewWordAcquired?.Invoke();
+        onNewWordAcquired?.Invoke(nuevoVocabulario);
     }
 
 }

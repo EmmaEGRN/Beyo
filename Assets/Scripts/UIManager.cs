@@ -11,7 +11,6 @@ public class UIManager : MonoBehaviour
     public DialogueManager dialogueManager;
 
 
-
     private void Start()
     {
         dialogueManager = DialogueManager.DialogueManagerinstance;

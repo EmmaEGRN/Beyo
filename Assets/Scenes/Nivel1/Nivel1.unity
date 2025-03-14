@@ -2552,6 +2552,7 @@ MonoBehaviour:
   objeto: {fileID: 11400000, guid: 5e911a48348ccbd45b26217450ae6161, type: 2}
   radius: 3
   interactionTransform: {fileID: 529800693}
+  nuevoVocabulario: {fileID: 11400000, guid: d5e0808055ddb044eb24244689f1a658, type: 2}
 --- !u!1 &552292691
 GameObject:
   m_ObjectHideFlags: 0
@@ -2565,6 +2566,7 @@ GameObject:
   - component: {fileID: 552292693}
   - component: {fileID: 552292695}
   - component: {fileID: 552292696}
+  - component: {fileID: 552292697}
   m_Layer: 5
   m_Name: PanelNuevaPalabra
   m_TagString: Untagged
@@ -2675,6 +2677,21 @@ MonoBehaviour:
   palabra: {fileID: 996886216}
   "traducci\xF3n": {fileID: 2027572878}
   vocab: {fileID: 11400000, guid: d5e0808055ddb044eb24244689f1a658, type: 2}
+--- !u!114 &552292697
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 552292691}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de3cd0ce2de10b144ab7a0a0d0fca6c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  imagen: {fileID: 1879436713}
+  palabra: {fileID: 996886216}
+  "traducci\xF3n": {fileID: 2027572878}
 --- !u!1 &724387980
 GameObject:
   m_ObjectHideFlags: 0
@@ -4182,6 +4199,51 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2938027618931392572, guid: 5a50e32c139d69748ad5b697b7896e28, type: 3}
   m_PrefabInstance: {fileID: 1137952173}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1143984528
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1143984530}
+  - component: {fileID: 1143984529}
+  m_Layer: 0
+  m_Name: WordRecordManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1143984529
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1143984528}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 786f22f835ef7644180eb0b151ee0135, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  wordRecord: {fileID: 11400000, guid: 05c1c73ff9dc072408038e350da05258, type: 2}
+--- !u!4 &1143984530
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1143984528}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1020.8268, y: 534.67444, z: -5.7588344}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1192872676
 GameObject:
   m_ObjectHideFlags: 0
@@ -4424,6 +4486,10 @@ PrefabInstance:
       propertyPath: CartaDePalabra
       value: 
       objectReference: {fileID: 552292691}
+    - target: {fileID: 6021407974843729268, guid: 6af275ef0645b75448802a441e552b47, type: 3}
+      propertyPath: nuevoVocabulario
+      value: 
+      objectReference: {fileID: 11400000, guid: d5e0808055ddb044eb24244689f1a658, type: 2}
     - target: {fileID: 6258363328665449128, guid: 6af275ef0645b75448802a441e552b47, type: 3}
       propertyPath: m_Name
       value: Gallina
@@ -5850,6 +5916,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6021407974843729268, guid: 6af275ef0645b75448802a441e552b47, type: 3}
+      propertyPath: nuevoVocabulario
+      value: 
+      objectReference: {fileID: 11400000, guid: d5e0808055ddb044eb24244689f1a658, type: 2}
     - target: {fileID: 6258363328665449128, guid: 6af275ef0645b75448802a441e552b47, type: 3}
       propertyPath: m_Name
       value: Gallina (1)
@@ -8150,3 +8220,4 @@ SceneRoots:
   - {fileID: 865775280}
   - {fileID: 1894439623}
   - {fileID: 841977724}
+  - {fileID: 1143984530}
