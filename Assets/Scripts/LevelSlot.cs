@@ -15,7 +15,6 @@ public class LevelSlot : MonoBehaviour
     {
         numeroDelNivel.text = "Nivel " + thisLevel.numeroDeNivel +":";
         nombreDelNivel.text = thisLevel.nombreDeNivel;
-        cleared = thisLevel.cleared;
 
         switch (thisLevel.state)
         {
