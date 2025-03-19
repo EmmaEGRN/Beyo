@@ -17,4 +17,5 @@ MonoBehaviour:
   numeroDeNivel: 1
   nombreDeNivel: Yo Quiero
   cleared: 1
+  state: 1
   startScene: 2

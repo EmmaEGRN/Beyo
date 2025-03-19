@@ -9,6 +9,10 @@ public class InfoNivel : ScriptableObject
     public int numeroDeNivel;
     public string nombreDeNivel;
     public bool cleared;
+
+    public enum State {disabled, enabled, cleared};
+    public State state;
+
     public int startScene;
 
 }

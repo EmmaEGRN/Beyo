@@ -44,6 +44,7 @@ public class ScrollController : MonoBehaviour
         {
             endPanel.SetActive(true);
             nivelParaHabilitar.cleared = true;
+            nivelParaHabilitar.state = InfoNivel.State.enabled;
         }
     }
 

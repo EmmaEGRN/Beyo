@@ -17,9 +17,18 @@ public class LevelSlot : MonoBehaviour
         nombreDelNivel.text = thisLevel.nombreDeNivel;
         cleared = thisLevel.cleared;
 
-        if (!cleared)
+        switch (thisLevel.state)
         {
-            backgroundImage.color = Color.white;
+            case InfoNivel.State.disabled:
+                backgroundImage.color = Color.white;
+                break;
+            case InfoNivel.State.enabled:
+                break;
+            case InfoNivel.State.cleared:
+                break;
+            default:
+                backgroundImage.color = Color.white;
+                break;
         }
     }
 
