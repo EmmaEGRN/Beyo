@@ -4667,7 +4667,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3cf4f755eaefa3d4392ad099648789b6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maximas: 4
+  maximas: 6
   cam: {fileID: 1996907460}
   congrats: {fileID: 189330111}
   losePanel: {fileID: 1731324682}

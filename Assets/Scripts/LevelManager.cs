@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class LevelManager : MonoBehaviour
 {
-
+    [SerializeField] private int maximas;
     public Camera cam;
     public GameObject congrats;
     public GameObject losePanel;
@@ -139,7 +139,7 @@ public class LevelManager : MonoBehaviour
 
     public void Update()
     {
-        if (correctas == 4)
+        if (correctas == maximas)
         {
             congrats.SetActive(true);
         }
