@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: mixbaal
   m_EditorClassIdentifier: 
   palabras:
-  - {fileID: 0}
-  "traducci\xF3n": 
+  - {fileID: 11400000, guid: 0140216307134dd4aa84f9a3fe5a5143, type: 2}
+  "traducci\xF3n": De nada

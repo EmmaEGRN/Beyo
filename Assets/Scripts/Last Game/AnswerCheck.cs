@@ -19,18 +19,21 @@ public class AnswerCheck : MonoBehaviour
     ShowResult showResult;
     public Sentences sentenceToCheck;
 
-
     public void Start()
     {
-        panel = answerPanel.GetComponent<Image>();
+        panel = answerPanel.GetComponent<Image>();       
+    }
 
+
+    public void setRightAnswers(Sentences sentence)
+    {
+        sentenceToCheck = sentence;
         rightAnswers = new int[sentenceToCheck.palabras.Length];
 
-        for(int i = 0; i<sentenceToCheck.palabras.Length; i++)
+        for (int i = 0; i < sentenceToCheck.palabras.Length; i++)
         {
             rightAnswers[i] = sentenceToCheck.palabras[i].ID;
         }
-
     }
 
     public void CheckAnswer()

@@ -8,8 +8,11 @@ public class DialoguePanelSetter : MonoBehaviour
     [SerializeField] Image sprite;
     [SerializeField] Sentences sentenceToCheck;
     [SerializeField] AnswerCheck answerCheck;
-    
 
+    private void Awake()
+    {
+        answerCheck.setRightAnswers(sentenceToCheck);
+    }
     void Start()
     {
         traducción.text = sentenceToCheck.traducción;
