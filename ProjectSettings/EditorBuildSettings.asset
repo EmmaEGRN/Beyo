@@ -24,6 +24,15 @@ EditorBuildSettings:
     path: Assets/Scenes/Nivel1/Nivel1Post.unity
     guid: ad498d78a026d00408b23cdcf9526655
   - enabled: 1
+    path: Assets/Scenes/Nivel2/PantallaDePresentacion2.unity
+    guid: dd24a7b0c5fd9f149853309ef80ecc03
+  - enabled: 1
+    path: Assets/Scenes/Nivel2/Nivel2Pre.unity
+    guid: 4b7c378b496de4646a51663e442ea5ed
+  - enabled: 1
+    path: Assets/Scenes/Nivel2/Nivel2Post.unity
+    guid: 3e0e785c8fa6243448c396b30847bb5b
+  - enabled: 1
     path: Assets/Scenes/Nivel1/LoadingScene.unity
     guid: 8fbad10a2b739744d9b2650eb393063e
   m_configObjects:

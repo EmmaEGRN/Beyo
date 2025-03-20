@@ -16,5 +16,5 @@ MonoBehaviour:
   numeroDefault: 3
   numeroDeNivel: 2
   nombreDeNivel: Frutas
-  cleared: 0
-  startScene: 2
+  state: 0
+  startScene: 6
