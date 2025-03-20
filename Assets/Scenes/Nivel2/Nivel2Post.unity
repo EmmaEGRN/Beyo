@@ -5336,14 +5336,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3516869812186712277, guid: 64b34c72851811143af2983feb9a6ec8, type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 223.4119
-      objectReference: {fileID: 0}
-    - target: {fileID: 3516869812186712277, guid: 64b34c72851811143af2983feb9a6ec8, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: -53.3461
-      objectReference: {fileID: 0}
     - target: {fileID: 3659124705934122443, guid: 64b34c72851811143af2983feb9a6ec8, type: 3}
       propertyPath: scrollController
       value: 
@@ -5351,14 +5343,6 @@ PrefabInstance:
     - target: {fileID: 7496767106875654614, guid: 64b34c72851811143af2983feb9a6ec8, type: 3}
       propertyPath: m_Name
       value: Dialogue
-      objectReference: {fileID: 0}
-    - target: {fileID: 8689081369474668319, guid: 64b34c72851811143af2983feb9a6ec8, type: 3}
-      propertyPath: m_text
-      value: "Buenos d\xEDas, Juanito"
-      objectReference: {fileID: 0}
-    - target: {fileID: 8689081369474668319, guid: 64b34c72851811143af2983feb9a6ec8, type: 3}
-      propertyPath: m_margin.z
-      value: 0.9704514
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

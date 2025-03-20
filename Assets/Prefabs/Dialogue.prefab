@@ -126,6 +126,7 @@ MonoBehaviour:
   right: 0
   rightAsnwerCount: 0
   scrollController: {fileID: 0}
+  sentenceToCheck: {fileID: 0}
 --- !u!114 &3482254367516852004
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -172,8 +173,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -86.41602, y: 22.369}
-  m_SizeDelta: {x: 157.272, y: 21.526}
+  m_AnchoredPosition: {x: -53.3461, y: 22.369}
+  m_SizeDelta: {x: 223.4119, y: 21.526}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &576578590023071165
 CanvasRenderer:
@@ -203,7 +204,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Hola, Juanito
+  m_text: "Buenos d\xEDas, Juanito"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 565cb739ea2878a4787bfc929e4b70c1, type: 2}
   m_sharedMaterial: {fileID: 6831232927774860994, guid: 565cb739ea2878a4787bfc929e4b70c1, type: 2}
@@ -268,7 +269,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0.16395572, w: 0}
+  m_margin: {x: 0, y: 0, z: 0.9704514, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -557,6 +558,7 @@ GameObject:
   - component: {fileID: 5667069377404534980}
   - component: {fileID: 762937098682847337}
   - component: {fileID: 4866209029442655081}
+  - component: {fileID: 1666610692753364898}
   m_Layer: 5
   m_Name: Dialogue
   m_TagString: Untagged
@@ -794,6 +796,22 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &1666610692753364898
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7496767106875654614}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb0f5a7ab9c5e4242a88573ae8c92a06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  "traducci\xF3n": {fileID: 8689081369474668319}
+  sprite: {fileID: 4310837097049705871}
+  sentenceToCheck: {fileID: 11400000, guid: 75faa19ec479ed44396ba53b05dd3d97, type: 2}
+  answerCheck: {fileID: 3659124705934122443}
 --- !u!1 &8955779152285266385
 GameObject:
   m_ObjectHideFlags: 0

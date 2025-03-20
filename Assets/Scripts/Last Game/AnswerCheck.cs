@@ -4,6 +4,7 @@ using UnityEngine.UI;
 
 public class AnswerCheck : MonoBehaviour
 {
+
     public int[] rightAnswers;
     public int[] ids;
     public delegate void ShowResult();
@@ -16,12 +17,20 @@ public class AnswerCheck : MonoBehaviour
     public int rightAsnwerCount;
     public ScrollController scrollController;
     ShowResult showResult;
-
+    public Sentences sentenceToCheck;
 
 
     public void Start()
     {
         panel = answerPanel.GetComponent<Image>();
+
+        rightAnswers = new int[sentenceToCheck.palabras.Length];
+
+        for(int i = 0; i<sentenceToCheck.palabras.Length; i++)
+        {
+            rightAnswers[i] = sentenceToCheck.palabras[i].ID;
+        }
+
     }
 
     public void CheckAnswer()
