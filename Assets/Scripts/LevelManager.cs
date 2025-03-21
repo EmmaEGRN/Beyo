@@ -106,6 +106,7 @@ public class LevelManager : MonoBehaviour
 
             LiveManager.instance.decrease();
         }
+        //
         //mostrar falso
         carta = null;
         respuesta = null;
