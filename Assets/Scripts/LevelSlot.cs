@@ -15,18 +15,21 @@ public class LevelSlot : MonoBehaviour
     {
         numeroDelNivel.text = "Nivel " + thisLevel.numeroDeNivel +":";
         nombreDelNivel.text = thisLevel.nombreDeNivel;
+        backgroundImage = GetComponent<Image>();
 
         switch (thisLevel.state)
         {
             case InfoNivel.State.disabled:
-                backgroundImage.color = Color.white;
+                backgroundImage.sprite = thisLevel.disabled;
                 break;
             case InfoNivel.State.enabled:
+                backgroundImage.sprite = thisLevel.enabled;
                 break;
             case InfoNivel.State.cleared:
+                backgroundImage.sprite = thisLevel.cleared;
                 break;
             default:
-                backgroundImage.color = Color.white;
+                backgroundImage.sprite = thisLevel.disabled;
                 break;
         }
     }

@@ -3535,6 +3535,8 @@ MonoBehaviour:
   endPanel: {fileID: 1065811602}
   losePanel: {fileID: 1489870237}
   nivelParaHabilitar: {fileID: 11400000, guid: eddd6b2100b49914da021dee077a3e9b, type: 2}
+  nivelParaPasar: {fileID: 11400000, guid: 08f68006771b55146ab096da0510eacd, type: 2}
+  maximas: 4
 --- !u!1 &1284884307
 GameObject:
   m_ObjectHideFlags: 0

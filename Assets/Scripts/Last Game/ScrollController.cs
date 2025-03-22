@@ -10,6 +10,7 @@ public class ScrollController : MonoBehaviour
     public GameObject endPanel;
     public GameObject losePanel;
     public InfoNivel nivelParaHabilitar;
+    public InfoNivel nivelParaPasar;
     [SerializeField] int maximas;
     public void Start()
     {
@@ -45,6 +46,7 @@ public class ScrollController : MonoBehaviour
         {
             endPanel.SetActive(true);
             nivelParaHabilitar.state = InfoNivel.State.enabled;
+            nivelParaPasar.state = InfoNivel.State.cleared;
         }
     }
 

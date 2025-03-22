@@ -14,4 +14,8 @@ public class InfoNivel : ScriptableObject
 
     public int startScene;
 
+    public Sprite enabled;
+    public Sprite disabled;
+    public Sprite cleared;
+
 }
