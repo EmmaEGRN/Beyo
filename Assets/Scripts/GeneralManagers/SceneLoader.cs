@@ -6,9 +6,10 @@ using UnityEngine.SceneManagement;
 public class SceneLoader : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    public int scene = 1;
+    int scene;
     void Start()
     {
+        scene = SceneManager.GetActiveScene().buildIndex + 1;
         LoadLevel(scene);
     }
     public void LoadLevel(int index)
@@ -18,6 +19,7 @@ public class SceneLoader : MonoBehaviour
 
     IEnumerator LoadAsynchronously (int index)
     {
+        yield return new WaitForSeconds(3);
         AsyncOperation operation = SceneManager.LoadSceneAsync(index);
 
         while (!operation.isDone)
