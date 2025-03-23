@@ -3952,7 +3952,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &979429084
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3994,8 +3994,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 55644ccc70c97cb4fbbd92acc2fea9e4, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -4595,6 +4595,18 @@ PrefabInstance:
     - target: {fileID: 4943459483915561384, guid: 7e32b0dab8ff9e74ca4bc8c1c715563f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5070877663750627028, guid: 7e32b0dab8ff9e74ca4bc8c1c715563f, type: 3}
+      propertyPath: m_Type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5070877663750627028, guid: 7e32b0dab8ff9e74ca4bc8c1c715563f, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 55644ccc70c97cb4fbbd92acc2fea9e4, type: 3}
+    - target: {fileID: 5070877663750627028, guid: 7e32b0dab8ff9e74ca4bc8c1c715563f, type: 3}
+      propertyPath: m_PixelsPerUnitMultiplier
+      value: 4.01
       objectReference: {fileID: 0}
     - target: {fileID: 5104095863747135189, guid: 7e32b0dab8ff9e74ca4bc8c1c715563f, type: 3}
       propertyPath: vocab
