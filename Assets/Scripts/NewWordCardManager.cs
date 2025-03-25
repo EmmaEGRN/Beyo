@@ -12,7 +12,7 @@ public class NewWordCardManager : MonoBehaviour
 
     public delegate void AddThisWord(Vocabulario newVocab);
     public static event AddThisWord addThisWord;
-
+   
     private void OnEnable()
     {
         addThisWord?.Invoke(vocab);

@@ -16,7 +16,7 @@ public class OrganizadorGlosario : MonoBehaviour
 
     private void OnEnable()
     {
-        if(transform.childCount != 4) updateGlosary();
+        updateGlosary();
 
 
     }
@@ -31,7 +31,8 @@ public class OrganizadorGlosario : MonoBehaviour
         {
             num = pag;
             over = 4;
-        };
+        }
+
 
         Debug.Log("el número de página es :" + num);
         Debug.Log("la cantidad de cartas en esta página es: " + over);
@@ -57,13 +58,15 @@ public class OrganizadorGlosario : MonoBehaviour
 
     void setWords()
     {
-        for (int i = 0; i < over; i++)
-        {
+        int corrector = transform.childCount;
+
+        for (int i = 0; i < (over - corrector); i++)
+        {            
             GameObject palabra;
             palabra = Instantiate(panel, transform);
-            palabra.GetComponent<NewWordCardManager>().vocab = wordRecord.palabras[i + num * 4];
+            palabra.GetComponent<NewWordCardManager>().vocab = wordRecord.palabras[i + corrector + num * 4];
             transform.GetChild(i).GetComponent<NewWordCardManager>().setContent();
-            Debug.Log(wordRecord.palabras[i + num * 4]);
+            //Debug.Log(wordRecord.palabras[i + num * 4]);
 
         }
     }

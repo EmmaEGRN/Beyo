@@ -22,6 +22,7 @@ public class WordRecordManager : MonoBehaviour
 
     private void AddNewWordToDictionary(Vocabulario vocab)
     {
+        if (vocab == null) return;
         Debug.Log(CheckIfWordAlreadyInDictionary(vocab));
         if (!CheckIfWordAlreadyInDictionary(vocab))
         {
