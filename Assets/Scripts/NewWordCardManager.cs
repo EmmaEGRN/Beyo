@@ -19,6 +19,11 @@ public class NewWordCardManager : MonoBehaviour
     }
     void Start()
     {
+        setContent();
+    }
+
+    public void setContent()
+    {
         imagen.sprite = vocab.imagen;
         palabra.text = vocab.PalabraRaw;
         traducción.text = vocab.Traducción;
