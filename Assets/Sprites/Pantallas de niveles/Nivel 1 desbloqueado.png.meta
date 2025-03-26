@@ -114,7 +114,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 220
-        y: 1240
+        y: 1242
         width: 220
         height: 220
       alignment: 0
@@ -140,7 +140,7 @@ TextureImporter:
         width: 220
         height: 220
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -149,6 +149,226 @@ TextureImporter:
       bones: []
       spriteID: 94d40623945db0945921f06111ddd40b
       internalID: 1554477204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nivel 1 desbloqueado_2
+      rect:
+        serializedVersion: 2
+        x: 1240
+        y: 1240
+        width: 220
+        height: 220
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a78e04b3df1ff1a49b765d9f845ef94d
+      internalID: 2024251194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nivel 1 desbloqueado_3
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 1240
+        width: 220
+        height: 220
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59ea0f6c2730eb949a97ed10ae09f715
+      internalID: 1970161084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nivel5Dis
+      rect:
+        serializedVersion: 2
+        x: 1580
+        y: 1240
+        width: 220
+        height: 220
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39d489b530b8ce94586bf4ee48dc1484
+      internalID: 1149693545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nivel6Dis
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 920
+        width: 220
+        height: 220
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0387663d10181dd4d83a9be7eac131d1
+      internalID: -25248418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nivel7Dis
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 920
+        width: 220
+        height: 220
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd170c82d35e4a9468cb6bf10ce15866
+      internalID: -2098264481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nivel8Dis
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 920
+        width: 220
+        height: 220
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dff27a63e05b9247893c808d3f8ea03
+      internalID: 1962844564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nivel9Dis
+      rect:
+        serializedVersion: 2
+        x: 1240
+        y: 920
+        width: 220
+        height: 220
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79348036e3f4406428b14a8df903fd98
+      internalID: 243828456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nivel10Dis
+      rect:
+        serializedVersion: 2
+        x: 1580
+        y: 920
+        width: 220
+        height: 220
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb0e5b70f49b5d844b0bdef4fa70bd85
+      internalID: -829350078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nivel11Dis
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 600
+        width: 220
+        height: 220
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec99caef6b2f36d45ad848c1795b69b7
+      internalID: 432769846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nivel12Dis
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 600
+        width: 220
+        height: 220
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 510158ea3abda9845bda0a42640f1fa4
+      internalID: -1904013579
       vertices: []
       indices: 
       edges: []
@@ -169,6 +389,17 @@ TextureImporter:
     nameFileIdTable:
       Nivel 1 desbloqueado_0: 1260088038
       Nivel 1 desbloqueado_1: 1554477204
+      Nivel 1 desbloqueado_2: 2024251194
+      Nivel 1 desbloqueado_3: 1970161084
+      Nivel10Dis: -829350078
+      Nivel11Dis: 432769846
+      Nivel12Dis: -1904013579
+      Nivel5Dis: 1149693545
+      Nivel6Dis: -25248418
+      Nivel7Dis: -2098264481
+      Nivel8Dis: 1962844564
+      Nivel9Dis: 243828456
+      s: 432769846
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
