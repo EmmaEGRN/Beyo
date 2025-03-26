@@ -11,6 +11,7 @@ public class LevelSlot : MonoBehaviour
     public TMP_Text numeroDelNivel;
     public Image backgroundImage;
     public bool cleared;
+    [SerializeField] Button levelButton;
     void Start()
     {
         numeroDelNivel.text = "Nivel " + thisLevel.numeroDeNivel +":";
@@ -21,9 +22,11 @@ public class LevelSlot : MonoBehaviour
         {
             case InfoNivel.State.disabled:
                 backgroundImage.sprite = thisLevel.disabled;
+                levelButton.enabled = false;
                 break;
             case InfoNivel.State.enabled:
                 backgroundImage.sprite = thisLevel.enabled;
+                levelButton.enabled = true;
                 break;
             case InfoNivel.State.cleared:
                 backgroundImage.sprite = thisLevel.cleared;
