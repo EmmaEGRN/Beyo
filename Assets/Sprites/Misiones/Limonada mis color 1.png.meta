@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: b4794979687b3494d8611cf2f0c4fdd5
+guid: 7e06a601c59ed3f4d9e8c3681d8b1d0b
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -110,7 +110,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Naranjada mis color_0
+      name: Limonada mis color_0
       rect:
         serializedVersion: 2
         x: 260
@@ -125,8 +125,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 84b58397b9b1b024ca76ef44aeec11f6
-      internalID: 857944597
+      spriteID: 2fa352781de781044a25963fa5098ad9
+      internalID: -2059490715
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 407bbd50050f5ff489d401c2292d0a8b
+    spriteID: 6383648ddefba024c8e2dc0425fe153d
     internalID: 0
     vertices: []
     indices: 
@@ -145,7 +145,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Naranjada mis color_0: 857944597
+      Limonada mis color_0: -2059490715
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
