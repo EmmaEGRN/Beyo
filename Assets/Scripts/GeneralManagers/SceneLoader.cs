@@ -7,6 +7,7 @@ public class SceneLoader : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     int scene;
+    [SerializeField] float seconds;
     void Start()
     {
         scene = SceneManager.GetActiveScene().buildIndex + 1;
@@ -19,7 +20,7 @@ public class SceneLoader : MonoBehaviour
 
     IEnumerator LoadAsynchronously (int index)
     {
-        yield return new WaitForSeconds(3);
+        yield return new WaitForSeconds(seconds);
         AsyncOperation operation = SceneManager.LoadSceneAsync(index);
 
         while (!operation.isDone)
