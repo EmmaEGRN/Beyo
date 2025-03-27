@@ -29,4 +29,9 @@ public class NewWordCardManager : MonoBehaviour
         traducción.text = vocab.Traducción;
     }
 
+    public void Selection()
+    {
+        FindAnyObjectByType<AudioManager>().Play(vocab.name);
+    }
+
 }
