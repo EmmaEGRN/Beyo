@@ -17,7 +17,7 @@ MonoBehaviour:
   numeroDeNivel: 2
   nombreDeNivel: Frutas
   state: 0
-  startScene: 6
+  startScene: 7
   enabled: {fileID: -145987122, guid: 82195c44129f57f4693466a54ef2e7dd, type: 3}
   disabled: {fileID: 1554477204, guid: bca8e77e06ac9c64ea91fa1fc814f1cf, type: 3}
   cleared: {fileID: 557944436, guid: 8df696a29adc0f143a3ebf2cf48c1665, type: 3}
