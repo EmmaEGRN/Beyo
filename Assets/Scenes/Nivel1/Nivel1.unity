@@ -6821,7 +6821,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   icon: {fileID: 338021998}
   item: {fileID: 0}
+  misionCardNonCollected: {fileID: 13020432, guid: 9e0c8e5201f6fa545b751248ca237c82, type: 3}
+  misionCardCollected: {fileID: -868024813, guid: b60822277321d09479d7ca8ab51226aa, type: 3}
   missionPanel: {fileID: 939307879}
+  missionCard: {fileID: 1913901}
   endScreen: {fileID: 901053151}
   dialogueManager: {fileID: 0}
 --- !u!1 &1488332051

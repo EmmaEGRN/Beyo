@@ -6,7 +6,10 @@ public class UIManager : MonoBehaviour
     public Objects item;
     Inventory inventory;
     MissionSet missionSet;
+    public Sprite misionCardNonCollected;
+    public Sprite misionCardCollected;
     public GameObject missionPanel;
+    public Image missionCard;
     public GameObject endScreen;
     public DialogueManager dialogueManager;
 
@@ -34,6 +37,7 @@ public class UIManager : MonoBehaviour
     public void SlotAppear(Objects newItem)
     {
         missionPanel.SetActive(true);
+        missionCard.sprite = misionCardNonCollected;
         item = newItem;
         icon.sprite = item.disabledIcon;
         //missionPanel
@@ -42,6 +46,7 @@ public class UIManager : MonoBehaviour
 
     public void AddItem(Objects newItem)
     {
+        missionCard.sprite = misionCardCollected;
         icon.sprite = item.icon;
 
     }
