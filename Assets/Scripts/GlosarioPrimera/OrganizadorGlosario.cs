@@ -25,7 +25,7 @@ public class OrganizadorGlosario : MonoBehaviour
     {
         Debug.Log("Hay esta cantidad de vocabulario" + wordRecord.palabras.Count);
         over = (wordRecord.palabras.Count) % 4;
-        if (over == 0) over = 4;
+        //if (over == 0) over = 4;
         num = (wordRecord.palabras.Count - wordRecord.palabras.Count % 4) / 4;
         if (num > pag)
         {
