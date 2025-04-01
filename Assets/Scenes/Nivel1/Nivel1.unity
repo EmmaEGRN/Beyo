@@ -5003,10 +5003,14 @@ MonoBehaviour:
   vocabularioContentList:
   - {fileID: 11400000, guid: 97d08266eff1e0a4ebe35a1be7e38584, type: 2}
   - {fileID: 11400000, guid: d4b18ba6c0e2f8c4a818e786462ad84f, type: 2}
+  - {fileID: 11400000, guid: 43236cd79ceb4b84eb497b8af17fbba9, type: 2}
+  - {fileID: 11400000, guid: 33162f9671f835f469580e8d2adde89a, type: 2}
   - {fileID: 11400000, guid: ab2be11329d07524992622abeb1f0db8, type: 2}
-  - {fileID: 11400000, guid: 21555fdc65380c64889ffc26665c72e0, type: 2}
-  - {fileID: 11400000, guid: e6e4a18ec3b397b4ea0d78053555aab1, type: 2}
   - {fileID: 11400000, guid: d5467ca58e6565847b9196d072a803eb, type: 2}
+  - {fileID: 11400000, guid: 21555fdc65380c64889ffc26665c72e0, type: 2}
+  - {fileID: 11400000, guid: a9672018f61075943ba5206513a0d9ca, type: 2}
+  - {fileID: 11400000, guid: b248570421a71b042bb9ffa5f5d84b1c, type: 2}
+  - {fileID: 11400000, guid: e6e4a18ec3b397b4ea0d78053555aab1, type: 2}
   infoContainer: {fileID: 979429083}
   iconDisplay: {fileID: 724387982}
 --- !u!114 &975606543
