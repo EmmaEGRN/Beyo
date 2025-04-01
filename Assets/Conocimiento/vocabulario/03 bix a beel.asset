@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e321af133e3dc7b49a89e1a87925a581, type: 3}
-  m_Name: ja'il
+  m_Name: 03 bix a beel
   m_EditorClassIdentifier: 
-  ID: 19
-  Parlabra: <link="19"><u>ja'il</u></link>
-  PalabraRaw: ja'il
-  "Traducci\xF3n": agua de
-  imagen: {fileID: -849497790, guid: ca45cc81770f651468e2eb2e34aa6c13, type: 3}
+  ID: 3
+  Parlabra: <link="3"><u>bix a beel</u></link>
+  PalabraRaw: bix a beel
+  "Traducci\xF3n": "\xBFC\xF3mo est\xE1s?"
+  imagen: {fileID: 0}

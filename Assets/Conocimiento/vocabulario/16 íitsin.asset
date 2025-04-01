@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e321af133e3dc7b49a89e1a87925a581, type: 3}
-  m_Name: in k'aat
+  m_Name: "16 \xEDitsin"
   m_EditorClassIdentifier: 
-  ID: 2
-  Parlabra: <link="2"><u>in k'aat</u></link>
-  PalabraRaw: in k'aat
-  "Traducci\xF3n": Yo Quiero
-  imagen: {fileID: 21300000, guid: 67f12934933d8fa4f8b4970a7aea8f62, type: 3}
+  ID: 16
+  Parlabra: "<link=\"16\"><u>\xEDitsin</u></link>"
+  PalabraRaw: "\xEDitsin"
+  "Traducci\xF3n": hermanita
+  imagen: {fileID: 0}

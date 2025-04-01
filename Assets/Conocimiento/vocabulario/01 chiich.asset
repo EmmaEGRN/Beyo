@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e321af133e3dc7b49a89e1a87925a581, type: 3}
-  m_Name: ma'alo'ob k'iin
+  m_Name: 01 chiich
   m_EditorClassIdentifier: 
-  ID: 3
-  Parlabra: <link="3"><u>ma'alo'ob k'iin</u></link>
-  PalabraRaw: ma'alo'ob k'iin
-  "Traducci\xF3n": "Buenos D\xEDas"
-  imagen: {fileID: 21300000, guid: 741d99669579ad74ebceaf76002978f4, type: 3}
+  ID: 1
+  Parlabra: <link="1"><u>chiich</u></link>
+  PalabraRaw: chiich
+  "Traducci\xF3n": Abuelita
+  imagen: {fileID: 21300000, guid: 5532c1e8e01227f49b5ea0da47fa66d0, type: 3}

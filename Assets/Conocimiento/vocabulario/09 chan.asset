@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e321af133e3dc7b49a89e1a87925a581, type: 3}
-  m_Name: ba'ax
+  m_Name: 09 chan
   m_EditorClassIdentifier: 
   ID: 9
-  Parlabra: <link="9"><u>ba'ax</u></link>
-  PalabraRaw: ba'ax
-  "Traducci\xF3n": "qu\xE9"
+  Parlabra: <link="9"><u>chan</u></link>
+  PalabraRaw: chan
+  "Traducci\xF3n": "peque\xF1o"
   imagen: {fileID: 0}

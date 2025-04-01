@@ -10,8 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 83cf0c788b8db424090fa1c04bcb83fd, type: 3}
-  m_Name: mixbaal
+  m_Name: 10 Bix a beel, yuum 1
   m_EditorClassIdentifier: 
   palabras:
-  - {fileID: 11400000, guid: 0140216307134dd4aa84f9a3fe5a5143, type: 2}
-  "traducci\xF3n": De nada
+  - {fileID: 11400000, guid: 43236cd79ceb4b84eb497b8af17fbba9, type: 2}
+  - {fileID: 11400000, guid: dfea4f7479adbb445bf193fc70f428e2, type: 2}
+  "traducci\xF3n": "\xBFC\xF3mo est\xE1s, hermanita?"

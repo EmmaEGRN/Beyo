@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e321af133e3dc7b49a89e1a87925a581, type: 3}
-  m_Name: ma'alo'ob
+  m_Name: 08 kux tech
   m_EditorClassIdentifier: 
-  ID: 16
-  Parlabra: <link="16"><u>ma'alo'ob</u></link>
-  PalabraRaw: ma'alo'ob
-  "Traducci\xF3n": bien
+  ID: 8
+  Parlabra: <link="8"><u>kux tech</u></link>
+  PalabraRaw: kux tech
+  "Traducci\xF3n": "\xBFY tu?"
   imagen: {fileID: 0}

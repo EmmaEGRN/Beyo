@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e321af133e3dc7b49a89e1a87925a581, type: 3}
-  m_Name: kux tech
+  m_Name: 14 ja'il
   m_EditorClassIdentifier: 
-  ID: 17
-  Parlabra: <link="17"><u>kux tech</u></link>
-  PalabraRaw: kux tech
-  "Traducci\xF3n": "\xBFY tu?"
-  imagen: {fileID: 0}
+  ID: 14
+  Parlabra: <link="14"><u>ja'il</u></link>
+  PalabraRaw: ja'il
+  "Traducci\xF3n": agua de
+  imagen: {fileID: -849497790, guid: ca45cc81770f651468e2eb2e34aa6c13, type: 3}

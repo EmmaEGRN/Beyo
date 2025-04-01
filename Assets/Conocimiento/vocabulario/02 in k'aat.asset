@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e321af133e3dc7b49a89e1a87925a581, type: 3}
-  m_Name: yuum
+  m_Name: 02 in k'aat
   m_EditorClassIdentifier: 
-  ID: 11
-  Parlabra: <link="11"><u>yuum</u></link>
-  PalabraRaw: yuum
-  "Traducci\xF3n": "Pap\xE1"
-  imagen: {fileID: 0}
+  ID: 2
+  Parlabra: <link="2"><u>in k'aat</u></link>
+  PalabraRaw: in k'aat
+  "Traducci\xF3n": Yo Quiero
+  imagen: {fileID: 21300000, guid: 67f12934933d8fa4f8b4970a7aea8f62, type: 3}

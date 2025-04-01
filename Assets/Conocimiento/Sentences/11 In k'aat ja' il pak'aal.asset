@@ -10,8 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 83cf0c788b8db424090fa1c04bcb83fd, type: 3}
-  m_Name: "N\xEDib \xF3olal"
+  m_Name: 11 In k'aat ja' il pak'aal
   m_EditorClassIdentifier: 
   palabras:
-  - {fileID: 11400000, guid: d5467ca58e6565847b9196d072a803eb, type: 2}
-  "traducci\xF3n": Gracias
+  - {fileID: 11400000, guid: d4b18ba6c0e2f8c4a818e786462ad84f, type: 2}
+  - {fileID: 11400000, guid: f3e7d329738dfdd4b8b3127f0e53cae0, type: 2}
+  - {fileID: 11400000, guid: a2976695660c81f40931d2a5ca24dfd5, type: 2}
+  "traducci\xF3n": Quiero agua de naranja

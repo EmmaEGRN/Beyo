@@ -9894,15 +9894,15 @@ PrefabInstance:
     - target: {fileID: 3664825736822842724, guid: b653322cead8bca459482b8e7762cec8, type: 3}
       propertyPath: 'dialogue1.sentences.Array.data[0]'
       value: 
-      objectReference: {fileID: 11400000, guid: 75faa19ec479ed44396ba53b05dd3d97, type: 2}
+      objectReference: {fileID: 11400000, guid: f5281b536c38b35479320485e2978a01, type: 2}
     - target: {fileID: 3664825736822842724, guid: b653322cead8bca459482b8e7762cec8, type: 3}
       propertyPath: 'dialogue1.sentences.Array.data[1]'
       value: 
-      objectReference: {fileID: 11400000, guid: ad9cdf3f7d5f833429f2adeb3b91138f, type: 2}
+      objectReference: {fileID: 11400000, guid: a930835c8f0eda24eb9e4b48712fd864, type: 2}
     - target: {fileID: 3664825736822842724, guid: b653322cead8bca459482b8e7762cec8, type: 3}
       propertyPath: 'dialogue1.sentences.Array.data[2]'
       value: 
-      objectReference: {fileID: 11400000, guid: 32affbae17052f046a6c23e97fa06de9, type: 2}
+      objectReference: {fileID: 11400000, guid: c28f58b6cf4ada441b93e14b2961d59a, type: 2}
     - target: {fileID: 3664825736822842724, guid: b653322cead8bca459482b8e7762cec8, type: 3}
       propertyPath: 'dialogue2.sentences.Array.data[0]'
       value: 

@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e321af133e3dc7b49a89e1a87925a581, type: 3}
-  m_Name: chiich
+  m_Name: 17 mixba'al
   m_EditorClassIdentifier: 
-  ID: 1
-  Parlabra: <link="1"><u>chiich</u></link>
-  PalabraRaw: chiich
-  "Traducci\xF3n": Abuelita
-  imagen: {fileID: 21300000, guid: 5532c1e8e01227f49b5ea0da47fa66d0, type: 3}
+  ID: 17
+  Parlabra: <link="17"><u>mixba'al</u></link>
+  PalabraRaw: mixba'al
+  "Traducci\xF3n": de nada
+  imagen: {fileID: 0}

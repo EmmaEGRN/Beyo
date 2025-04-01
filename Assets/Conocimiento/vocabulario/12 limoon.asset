@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e321af133e3dc7b49a89e1a87925a581, type: 3}
-  m_Name: pak'aal
+  m_Name: 12 limoon
   m_EditorClassIdentifier: 
-  ID: 8
-  Parlabra: <link="8"><u>pak'aal</u></link>
-  PalabraRaw: pak'aal
-  "Traducci\xF3n": naranja
+  ID: 12
+  Parlabra: <link="12"><u>limoon</u></link>
+  PalabraRaw: limoon
+  "Traducci\xF3n": "lim\xF3n"
   imagen: {fileID: 0}

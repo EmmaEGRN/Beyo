@@ -9,11 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e321af133e3dc7b49a89e1a87925a581, type: 3}
-  m_Name: mixba'al
+  m_Script: {fileID: 11500000, guid: 83cf0c788b8db424090fa1c04bcb83fd, type: 3}
+  m_Name: 9 mixbaal
   m_EditorClassIdentifier: 
-  ID: 13
-  Parlabra: <link="13"><u>mixba'al</u></link>
-  PalabraRaw: mixba'al
-  "Traducci\xF3n": de nada
-  imagen: {fileID: 0}
+  palabras:
+  - {fileID: 11400000, guid: 0140216307134dd4aa84f9a3fe5a5143, type: 2}
+  "traducci\xF3n": De nada

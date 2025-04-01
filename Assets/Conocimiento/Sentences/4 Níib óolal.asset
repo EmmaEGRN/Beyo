@@ -9,11 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e321af133e3dc7b49a89e1a87925a581, type: 3}
-  m_Name: a k'aat
+  m_Script: {fileID: 11500000, guid: 83cf0c788b8db424090fa1c04bcb83fd, type: 3}
+  m_Name: "4 N\xEDib \xF3olal"
   m_EditorClassIdentifier: 
-  ID: 10
-  Parlabra: <link="10"><u>a k'aat</u></link>
-  PalabraRaw: a k'aat
-  "Traducci\xF3n": "T\xFA quieres"
-  imagen: {fileID: 0}
+  palabras:
+  - {fileID: 11400000, guid: d5467ca58e6565847b9196d072a803eb, type: 2}
+  "traducci\xF3n": Gracias

@@ -9,7 +9,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 022f5eefe8e3c03418187dfc0cc7b0d3, type: 3}
-  m_Name: GlobalWordRecord
+  m_Script: {fileID: 11500000, guid: e321af133e3dc7b49a89e1a87925a581, type: 3}
+  m_Name: 05 ja'
   m_EditorClassIdentifier: 
-  palabras: []
+  ID: 5
+  Parlabra: <link="05"><u>ja'<u></link>
+  PalabraRaw: ja'
+  "Traducci\xF3n": Agua
+  imagen: {fileID: -849497790, guid: ca45cc81770f651468e2eb2e34aa6c13, type: 3}
