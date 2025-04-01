@@ -5,7 +5,7 @@ public class WordRecordManagerPreLevel : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     [SerializeField] private WordRecord wordRecord;
 
-    void Start()
+    void OnEnable()
     {
 
         LevelManager.onRightAnswer += AddNewWordToDictionary;
