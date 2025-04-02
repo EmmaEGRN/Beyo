@@ -5013,6 +5013,21 @@ MonoBehaviour:
   - {fileID: 11400000, guid: e6e4a18ec3b397b4ea0d78053555aab1, type: 2}
   infoContainer: {fileID: 979429083}
   iconDisplay: {fileID: 724387982}
+  addWord:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1143984529}
+        m_TargetAssemblyTypeName: WordRecordManager, Assembly-CSharp
+        m_MethodName: AddNewWordToDictionary
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &975606543
 MonoBehaviour:
   m_ObjectHideFlags: 0

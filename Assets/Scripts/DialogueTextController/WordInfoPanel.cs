@@ -1,9 +1,8 @@
 using TMPro;
 using UnityEngine.UI;
 using UnityEngine;
-using NUnit.Framework;
-using static InteractiveTMP;
 using System.Text.RegularExpressions;
+using UnityEngine.Events;
 
 public class WordInfoPanel : MonoBehaviour
 {
@@ -15,6 +14,8 @@ public class WordInfoPanel : MonoBehaviour
     
     private TMP_Text _traduccionTMP;
     [SerializeField] private Image iconDisplay;
+
+    public UnityVocabularyEvent addWord;
 
     private void Awake()
     {
@@ -60,6 +61,8 @@ public class WordInfoPanel : MonoBehaviour
                 iconDisplay.sprite = word.imagen;
                 FindAnyObjectByType<AudioManager>().Play(word.name);
 
+                addWord.Invoke(word);
+
                 return;
 
             };
@@ -89,3 +92,6 @@ public class WordInfoPanel : MonoBehaviour
         return str;
     }
 }
+
+[System.Serializable]
+public class UnityVocabularyEvent : UnityEvent<Vocabulario> { }

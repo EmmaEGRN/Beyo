@@ -20,7 +20,7 @@ public class WordRecordManager : MonoBehaviour
     }
 
 
-    private void AddNewWordToDictionary(Vocabulario vocab)
+    public void AddNewWordToDictionary(Vocabulario vocab)
     {
         if (vocab == null) return;
         Debug.Log(CheckIfWordAlreadyInDictionary(vocab));
@@ -30,7 +30,7 @@ public class WordRecordManager : MonoBehaviour
         }
     }
 
-    private bool CheckIfWordAlreadyInDictionary(Vocabulario vocab)
+    public bool CheckIfWordAlreadyInDictionary(Vocabulario vocab)
     {
         if (wordRecord.palabras.Contains(vocab))
         {
