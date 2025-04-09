@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.UI;
 public class UIManager : MonoBehaviour
 {
@@ -13,16 +14,19 @@ public class UIManager : MonoBehaviour
     public GameObject endScreen;
     public DialogueManager dialogueManager;
 
+    [SerializeField] UnityEvent update;
 
     private void Start()
     {
         dialogueManager = DialogueManager.DialogueManagerinstance;
         endScreen.SetActive(false);
-        missionPanel.SetActive(false);
+        //missionPanel.SetActive(false);
         missionSet = MissionSet.MissionInstance;
         missionSet.OnMissionChangedCallBack += SlotAppear;
         inventory = Inventory.instance;
         inventory.OnItemChangedCallBack += UpdateUI;
+
+        
         //missionSet.OnMissionAccomplishedCallBack += endScreenShow;
 
     }
@@ -36,12 +40,7 @@ public class UIManager : MonoBehaviour
 
     public void SlotAppear(Objects newItem)
     {
-        missionPanel.SetActive(true);
-        missionCard.sprite = misionCardNonCollected;
         item = newItem;
-        icon.sprite = item.disabledIcon;
-        //missionPanel
-
     }
 
     public void AddItem(Objects newItem)
@@ -62,9 +61,11 @@ public class UIManager : MonoBehaviour
 
     void UpdateUI()
     {
+        Debug.Log("Updating UI");
+        update.Invoke();
         if (inventory.objetos.Contains(item))
         {
-            AddItem(item);
+            Debug.Log("El objeto sí está en el inventario");
         }
         else
         {

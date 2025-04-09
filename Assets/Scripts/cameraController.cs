@@ -6,14 +6,26 @@ public class cameraController : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     DialogueManager dialogue;
-    public Transform player;
-    public Vector3 offset;
-    public Vector3 regularOffset;
 
-    public Vector3 dialogueCamera;
-    public Vector3 originalPosition; 
+    [Header("Default Data")]
+    public Transform player;
+    [SerializeField] Camera cam;
+    public Vector3 offset;
+
+
+    [Header("Normal Data")]
+    [SerializeField] float originalSize;
+    public Vector3 regularOffset;
+    public Vector3 originalPosition;
     public float pitch = 2f;
     public Vector3 originalPitch;
+
+
+
+    [Header("Dialogue Data")]
+    [SerializeField] float dialogueSize;
+    public Vector3 dialogueCamera;
+
     //public Vector3 newPitch;
 
     // 0, 10.1, -5.84
@@ -37,8 +49,10 @@ public class cameraController : MonoBehaviour
         if (dialogue.conversationGoingOn)
         {
             //transform.GetComponent<Camera>().orthographic = false;
+            cam.orthographicSize = Mathf.Lerp(originalSize,dialogueSize,0.05f);
             originalPitch = Vector3.Slerp(originalPitch, new Vector3(0f,0f,-1f), 0.05f);
             offset = Vector3.Slerp(offset, dialogueCamera, 0.05f);
+
         }
         else
         {
