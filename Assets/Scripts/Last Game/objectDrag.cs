@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.SocialPlatforms;
 using UnityEngine.UI;
 public class objectDrag : MonoBehaviour, IBeginDragHandler, IDragHandler ,IEndDragHandler
 {
@@ -40,6 +41,7 @@ public class objectDrag : MonoBehaviour, IBeginDragHandler, IDragHandler ,IEndDr
 
     public void Soud()
     {
+        FindAnyObjectByType<AudioManager>().Play("click");
         FindAnyObjectByType<AudioManager>().Play(wordAssign.vocab.name);
     }
 
