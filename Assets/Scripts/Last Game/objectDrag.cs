@@ -41,8 +41,8 @@ public class objectDrag : MonoBehaviour, IBeginDragHandler, IDragHandler ,IEndDr
 
     public void Soud()
     {
-        FindAnyObjectByType<AudioManager>().Play("click");
         FindAnyObjectByType<AudioManager>().Play(wordAssign.vocab.name);
+        FindAnyObjectByType<AudioManager>().Play("click");
     }
 
 }

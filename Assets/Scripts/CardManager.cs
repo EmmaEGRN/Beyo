@@ -22,6 +22,7 @@ public class CardManager : MonoBehaviour
 
     public void Selection()
     {
+        FindAnyObjectByType<AudioManager>().Play("click");
         FindAnyObjectByType<AudioManager>().Play(vocab.name);
         LevelManager.Instance.firstCardSelected(this);
     }

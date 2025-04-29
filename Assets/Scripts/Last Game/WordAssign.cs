@@ -9,5 +9,7 @@ public class WordAssign : MonoBehaviour, IPointerClickHandler
     public void OnPointerClick(PointerEventData eventData)
     {
         FindAnyObjectByType<AudioManager>().Play(vocab.name);
+        FindAnyObjectByType<AudioManager>().Play("click");
+
     }
 }
