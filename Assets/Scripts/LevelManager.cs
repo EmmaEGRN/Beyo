@@ -123,7 +123,7 @@ public class LevelManager : MonoBehaviour
 
     public void restart()
     {
-        SceneManager.LoadScene("LoadingScene");
+        SceneManager.LoadScene("PantallaDePresentacion");
 //        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
 
     }
