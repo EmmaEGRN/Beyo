@@ -118,7 +118,7 @@ TextureImporter:
         width: 680
         height: 880
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -127,6 +127,28 @@ TextureImporter:
       bones: []
       spriteID: 6443a4b53838ee447afd190daf5b3a93
       internalID: -291105332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Agua mis ByN_1
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 400
+        width: 560
+        height: 560
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 195928c1eeeaa2d4eb797c185ce861d5
+      internalID: 1610791376
       vertices: []
       indices: 
       edges: []
@@ -146,6 +168,7 @@ TextureImporter:
       entries: []
     nameFileIdTable:
       Agua mis ByN_0: -291105332
+      Agua mis ByN_1: 1610791376
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
