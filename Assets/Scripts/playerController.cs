@@ -7,6 +7,7 @@ public class playerController : MonoBehaviour
     private CharacterController controller;
     public float playerSpeed = 2.0f;
     public Camera cam;
+    [SerializeField] float gravity = 10f;
     public Interactable interactable;
     public Objects mision;
     Collider colider;
@@ -28,14 +29,22 @@ public class playerController : MonoBehaviour
             return;
         }
         Vector3 move = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
+        Vector3 moveDir = move;
+        if (!controller.isGrounded)
+        {
+            move.y -= gravity * Time.deltaTime;
+        }
+        Debug.Log(!controller.isGrounded);
         controller.Move(move * Time.deltaTime * playerSpeed);
         
-        if (move != Vector3.zero)
+        if (moveDir != Vector3.zero)
         {
-            Quaternion lookRotation = Quaternion.LookRotation(move);
+            Quaternion lookRotation = Quaternion.LookRotation(moveDir);
             transform.rotation = Quaternion.Slerp(transform.rotation, lookRotation, Time.deltaTime * 7f);
 
         }
+
+
 
         if (Input.GetMouseButtonDown(0))
             {
